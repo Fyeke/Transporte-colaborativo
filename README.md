@@ -1,19 +1,33 @@
-# React + Vite
+# Mitus 
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-Currently, two official plugins are available:
+Esta aplicación es una plataforma digital de transporte colaborativo diseñada para conectar a conductores comunitarios que desean compartir los asientos libres de sus vehículos con pasajeros rurales que necesitan movilizarse de forma económica y segura
+## Estructura del proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+El proyecto está dividido en dos partes principales:
+**`frontend/`**: Contiene la interfaz de usuario y toda la lógica del cliente.
+**`backend/`**: Contiene la API, la lógica de negocio y la conexión a la base de datos.
 
-## React Compiler
+## Tecnologias utilizadas 
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **Frontend:** React.js + Vite 
+- **Backend:** Node.js + Express.js
+- **Base de Datos:** MySQL
+- **Control de Versiones:** Git + GitHub
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
 
-## Expanding the Oxlint configuration
+## Instalacion 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. **Prerrequisitos**: 
+- instalado Node.js versión 20 en adelante. Puedes descargarlo [aquí](https://nodejs.org/)
+- instalado MySQL Server & MySQL Workbench en su ultima version  Puedes descargarlo [aquí](https://www.mysql.com/)
+- instalado Git para la gestion de versiones del repositorio 
+
+2. Clona el repositorio: `git clone https://github.com/Fyeke/Transporte-colaborativo.git`
+primero a la raiz con nombre de MITUS
+    Entramos a las carpetas:
+    **`frontend/`** cd frontend `npm install`
+    **`backend/`** cd backend `npm install`
+
+3. Ejecuta el proyecto en cada terminal
+
